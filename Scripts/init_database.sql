@@ -6,16 +6,6 @@ go
 create schema silver;
 go
 create schema gold;
-
-
-use master;
-create database Datawarehouse;
-use DataWarehouse;
-create schema bronze;
-go
-create schema silver;
-go
-create schema gold;
 go;
 create Table bronze.crm_cust_info (
 
